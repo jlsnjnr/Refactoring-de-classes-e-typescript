@@ -12,6 +12,12 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+      width: 100%;
+      margin: 0;
+      justify-content: space-around;
+    }
+
     nav {
       div {
         button {
